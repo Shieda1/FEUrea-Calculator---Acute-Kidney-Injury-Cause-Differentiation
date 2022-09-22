@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>FEUrea Calculator - Acute Kidney Injury Cause Differentiation</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- radio -->
+  <input type="radio" id="fractionalexcretionofureaRadio" name="variables" checked>
+  <label for="fractionalexcretionofureaRadio">Fractional excretion of urea</label>
+
+  <input type="radio" id="serumcreatinineRadio" name="variables">
+  <label for="serumcreatinineRadio">Serum creatinine</label>
+
+  <input type="radio" id="serumureaRadio" name="variables">
+  <label for="serumureaRadio">Serum urea</label>
+
+  <input type="radio" id="urinecreatinineRadio" name="variables">
+  <label for="urinecreatinineRadio">Urine creatinine</label>
+
+  <input type="radio" id="urineureaRadio" name="variables">
+  <label for="urineureaRadio">Urine urea</label><br><br>
+  <!-- end radio -->
+  
+  <label for="v1" id="variable1">Serum creatinine</label>
+  <input type="number" id="v1"><br><br>
+  
+  <label for="v2" id="variable2">Serum urea</label>
+  <input type="number" id="v2"><br><br>
+  
+  <label for="v3" id="variable3">Urine creatinine</label>
+  <input type="number" id="v3"><br><br>
+  
+  <label for="v4" id="variable4">Urine urea</label>
+  <input type="number" id="v4"><br><br>
+
+  <button id="btn">compute</button>
+
+  <p id="result"></p>
+  <script src="app.js"></script>
+</body>
+</html>
